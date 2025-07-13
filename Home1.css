@@ -1,0 +1,40 @@
+/* Style for the navigation bar container */
+.nav-bar {
+  display:flex;
+  align-items:center;
+  background-color: #5555bf;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  position:relative;
+  top:120px;
+  gap: 40px;
+  border-radius: 8px;
+  margin: 50px auto;
+  width: fit-content;
+  height:150px;
+  box-shadow: 0 4px 12px rgba(198, 181, 181, 0.2);
+}
+
+/* Style for each link */
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color:rgb(229, 152, 168);
+  
+}
+
+/* Hover effect for the link */
+.nav-link:hover {
+  background-color: #6c63ff;
+  color: #fff;
+  
+}
+body{
+    background-color: bisque;
+}
